@@ -44,7 +44,7 @@ There are 2 solutions:
 1. Run `python .\hartree_beam.py`
 2. Launch Jupyter Notebook `hartree_beam.ipynb` and run each step one by one
 
-The output of both solutions should match in terms of schema and records, although the sorting may differ.
+The output of both solutions matches in terms of schema and records, although the sorting is not same.
 
 
 ![Apache Beam vs Pandas](image.png)
