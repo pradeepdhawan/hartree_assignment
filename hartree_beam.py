@@ -113,6 +113,7 @@ with beam.Pipeline() as pipeline:
     if os.path.exists(output_file + "-00000-of-00001.csv"):
         os.remove(output_file + "-00000-of-00001.csv")
 
+    grouped_data | beam.LogElements()
     grouped_data | "Write to outputfile" >> beam.io.WriteToText(output_file, file_name_suffix='.csv', header="legal_entity,counter_party, tier,max(rating by counterparty), sum(value where status=ARAP), sum(value where status=ACCR), Total(count with same legal_entity, counter_party,tier)")
 
     
