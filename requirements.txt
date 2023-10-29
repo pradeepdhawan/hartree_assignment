@@ -1,0 +1,6 @@
+apache-beam==2.51.0
+apache-beam[interactive]==2.51.0
+apache-beam[dataframe]==2.51.0
+ipykernel==6.25.2
+notebook==7.0.5
+nbconvert==7.9.2

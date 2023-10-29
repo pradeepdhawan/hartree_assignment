@@ -1,0 +1,9 @@
+legal_entity,counter_party, tier,max(rating by counterparty), sum(value where status=ARAP), sum(value where status=ACCR), Total(count with same legal_entity, counter_party,tier)
+L1,             C1,             1,             3,             40.0,             0.0,             3
+L2,             C2,             2,             3,             20.0,             40.0,             2
+L3,             C3,             3,             4,             0.0,             145.0,             3
+L2,             C3,             3,             2,             0.0,             52.0,             1
+L1,             C3,             3,             6,             5.0,             0.0,             1
+L1,             C4,             4,             6,             40.0,             100.0,             2
+L2,             C5,             5,             6,             1000.0,             115.0,             3
+L3,             C6,             6,             6,             145.0,             60.0,             3
